@@ -1,9 +1,15 @@
-body{
+html {
+	background-color: #CCCCCC;
+}
+body {
 	box-sizing: border-box;
 	height: 1000px;
 	width: 700px;
-	border-style: solid;
+	/*border-style: solid;*/
 	padding: 25px;
+	margin: 1% auto;
+	background-color: #FFFFFF;
+	box-shadow:0px 0px  10px 5px #aaa;
 }
 
 #title {
@@ -12,13 +18,21 @@ body{
 	margin-left: 5%;
 }
 #title h1 {
+	box-sizing: border-box;
 	font-size: 2em;
 	color: #ffffff;
-	width: auto;
+	width: 200px;
 }
 #title p {
 	color: #ffffff;
-	margin-top: -10px;
+	margin-top: -5px;
+}
+#title a {
+	color: #ffffff;
+	text-decoration: none;
+}
+#title a:hover {
+	color: #000000;
 }
 .top {
 	background-color: #8888ff;
@@ -31,33 +45,46 @@ body{
 	width: 100px;
 	border: 10px solid #FFFFFF;
 	border-radius: 80px;
-	top: 130px;
-	left: 530px;
-
+	margin-left: 32em;
+	margin-top: -4em;
 }
 .body {
 	background-color: #AAAAAA;
 	margin-top :10px;
 	height: 780px;
 	overflow: hidden;
+	padding-top: 15px;
 }
 hr {
 	margin-right: 40px;
 }
+ul {
+	margin-top: 20px;
+}
 .item {
-	margin-top: 25px;
+	width: 100%;
+	padding-left: 5px;
+	padding-right: 5px;
+	color: #000000;
 	font-size: 1.3em;
 	font-weight: bold;
+	border-left: 5px solid #EEEEEE;
+	text-decoration: none;
+}
+.item:hover{
+	color: #EEEEEE;
+}
+.item:active{
+	border-right: 5px solid #EEEEEE;
 }
 .content {
 	margin-left: 40px;
-	font-size: 0.75em;
 	font-weight: normal;
 }
 .explain {
 	margin-left: 80px;
-	font-size: 0.8em;
 	list-style-type: circle;
 	font-weight: normal;
 	font-family: cursive;
+	color: #444444;
 }
