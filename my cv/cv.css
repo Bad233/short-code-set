@@ -47,13 +47,17 @@ hr {
 .item {
 	margin-top: 25px;
 	font-size: 1.3em;
+	font-weight: bold;
 }
 .content {
 	margin-left: 40px;
 	font-size: 0.75em;
+	font-weight: normal;
 }
 .explain {
 	margin-left: 80px;
-	font-size: 0.75em;
+	font-size: 0.8em;
 	list-style-type: circle;
+	font-weight: normal;
+	font-family: cursive;
 }
